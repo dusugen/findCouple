@@ -1,0 +1,55 @@
+body {
+  background-color: #04819e;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+h1 {
+  text-align: center;
+}
+
+.game-field {
+  background-color: #015367;
+  min-width: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 500px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.action {
+  background-color: #ff1e00;
+  color: #fff;
+  font-size: 1.2em;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.banner {
+  width: 350px;
+  margin-bottom: 20px;
+}
+
+.card {
+  height: 80px;
+  width: 80px;
+  margin: 8px;
+  background-image: url("../img/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  transform: rotateY(180deg);
+  transition: transform 0.4s;
+}
+.card.open {
+  transform: rotateY(0);
+}
+
+.row {
+  display: flex;
+}
